@@ -1,3 +1,4 @@
+import djcelery
 # result_backend = 'redis://:332572@127.0.0.1:6379/1'
 
 # BROKER_URL

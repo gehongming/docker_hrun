@@ -13,7 +13,7 @@ import os
 import sys
 import datetime
 from pathlib import Path
-from celery import Celery, platforms
+from celery_1 import Celery, platforms
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'drf_yasg',
+    'djcelery'
     # 自己的应用
     'projects.apps.ProjectsConfig',
     'interfaces.apps.InterfacesConfig',

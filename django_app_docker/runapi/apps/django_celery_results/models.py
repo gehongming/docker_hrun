@@ -1,11 +1,12 @@
 """Database models."""
 from __future__ import absolute_import, unicode_literals
 
+from celery import states
 from django.conf import settings
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from celery import states
+
 from six import python_2_unicode_compatible
 
 

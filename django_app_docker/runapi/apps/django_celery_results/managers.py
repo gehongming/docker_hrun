@@ -10,14 +10,14 @@ from django.db import connections, router, transaction
 from django.db import models
 from django.conf import settings
 
-from celery.five import items
+from celery_1.five import items
 
 from .utils import now
 
 try:
-    from celery.utils.time import maybe_timedelta
+    from celery_1.utils.time import maybe_timedelta
 except ImportError:  # pragma: no cover
-    from celery.utils.timeutils import maybe_timedelta  # noqa
+    from celery_1.utils.timeutils import maybe_timedelta  # noqa
 
 W_ISOLATION_REP = """
 Polling results with transaction isolation level 'repeatable-read'

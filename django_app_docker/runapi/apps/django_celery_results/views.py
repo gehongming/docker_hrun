@@ -6,10 +6,10 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
-from celery import states
-from celery.result import AsyncResult
-from celery.utils import get_full_cls_name
-from celery.utils.encoding import safe_repr
+from celery_1 import states
+from celery_1.result import AsyncResult
+from celery_1.utils import get_full_cls_name
+from celery_1.utils.encoding import safe_repr
 
 
 @api_view(['GET'])

@@ -16,6 +16,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/django_app_docker/runapi/apps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/django_app_docker/runapi/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/django_app_docker/runapi/runapi" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (djangostudy)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
